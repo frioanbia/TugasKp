@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Farhan Futsal</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Masuk</string>
+    <string name="forget_password">Lupa Kata Sandi ?</string>
+    <string name="Btn_login">Login</string>
+    <string name="don_t_have_account">Belum Punya akun ?</string>
+    <string name="sign_in">Daftar</string>
+    <string name="from">From</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="nama">Nama</string>
+    <string name="Btn_Register">Register</string>
+    <string name="no_hp">No.Hp</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="moch_farhan_ahadi">Moch.farhan Ahadi</string>
+    <string name="hi">Hi,</string>
+    <string name="selamat_pagi">Selamat Pagi</string>
+    <string name="booking">Booking</string>
+    <string name="tiket">Tiket</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="title_activity_buttom_navigasi">ButtomNavigasiActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="alamat">Alamat</string>
+    <string name="change_password">Change Password</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="regional">Regional</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="history_booking">History Booking</string>
+</resources>

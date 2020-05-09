@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putih"
+    android:padding="@dimen/_10sdp" >
+
+    <RelativeLayout
+        android:id="@+id/cardview_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_18sdp"
+            android:orientation="horizontal" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/peringatan"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_error"/>
+
+            <TextView
+                android:id="@+id/ketentuan_bayar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:paddingTop="@dimen/_3sdp"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:textColor="@color/hitam"
+                android:text="Ketentuan &amp; Bayar" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/view_background" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20sdp" >
+
+        <Spinner
+            android:id="@+id/katagori_booking"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:entries="@array/kategori_sewa"
+            android:background="@drawable/bg_spinner"
+            android:paddingLeft="@dimen/_5sdp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/laytgl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="@+id/editText3"
+                app:layout_constraintStart_toStartOf="@+id/editText3"
+                app:layout_constraintTop_toBottomOf="@+id/editText3"
+                android:layout_below="@id/katagori_booking"
+                tools:ignore="MissingConstraints" >
+
+                <EditText
+                    android:id="@+id/edt_tgl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:enabled="false"
+                    android:text="Klik Icon"
+                    android:textColor="@color/hitam"
+                    android:textSize="15sp"
+                    android:nextFocusUp="@id/edt_tgl"
+                    android:nextFocusLeft="@id/edt_tgl"
+                    android:background="@drawable/bg_spinner"
+                    android:paddingRight="@dimen/_10sdp" />
+
+                <ImageView
+                    android:id="@+id/show_tgl_btn"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:alpha=".5"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_event"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/laytgl"
+                    app:layout_constraintTop_toTopOf="@+id/edt_tgl" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layjam"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="@+id/editText3"
+                    app:layout_constraintStart_toStartOf="@+id/editText3"
+                    app:layout_constraintTop_toBottomOf="@+id/editText3"
+                    android:layout_below="@+id/laytgl"
+                    tools:ignore="MissingConstraints" >
+
+                    <EditText
+                        android:id="@+id/edt_jam"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:enabled="false"
+                        android:text="Klik Icon"
+                        android:textColor="@color/hitam"
+                        android:textSize="15sp"
+                        android:nextFocusUp="@id/edt_jam"
+                        android:nextFocusLeft="@id/edt_jam"
+                        android:background="@drawable/bg_spinner"
+                        android:paddingRight="@dimen/_10sdp" />
+
+                    <ImageView
+                        android:id="@+id/show_jam_btn"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_8sdp"
+                        android:alpha=".5"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_schedule"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/layjam"
+                        app:layout_constraintTop_toTopOf="@+id/edt_jam" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <Spinner
+                    android:id="@+id/spinnet_jam_sewa"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:entries="@array/jam_sewa"
+                    android:background="@drawable/bg_spinner"
+                    android:layout_below="@id/layjam"
+                    android:paddingLeft="@dimen/_5sdp" />
+
+            <Button
+                android:id="@+id/btn_booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_below="@id/spinnet_jam_sewa"
+                android:background="@drawable/button"
+                android:text="Booking"
+                android:textColor="@color/hitam"
+                android:textSize="@dimen/_10sdp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

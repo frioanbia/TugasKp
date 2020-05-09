@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LupaKataSandi.LupaKataSandiActivity">
+
+    <TextView
+        android:id="@+id/lupa_kata_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:text="Lupa Kata Sandi?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/hitam" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lupa_kata_s"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/relatif_background2" >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
+
+                <EditText
+                    android:id="@+id/Edt_Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_below="@+id/til_email"
+                app:passwordToggleEnabled="true"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
+
+                <EditText
+                    android:id="@+id/text_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionGo"
+                    android:hint="Password Baru" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_kon_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_below="@+id/til_pass"
+                app:passwordToggleEnabled="true"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
+
+                <EditText
+                    android:id="@+id/text_kon_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionGo"
+                    android:hint="Konfirmasi Password" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_reset_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/button_dialog"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="Reset Password"
+                android:textColor="@color/hitam"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_below="@+id/btn_reset_pass"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:text="Masuk"
+                android:textColor="@color/hitam"
+                android:textSize="14sp"
+                android:background="@drawable/button_dialog" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

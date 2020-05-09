@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Dashboard.DashboardActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/biru" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_10sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true">
+
+                    <TextView
+                        android:id="@+id/dashboard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dashboard"
+                        android:textColor="@color/putih"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/hi_dashboard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="HI, "
+                            android:textColor="@color/putih"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/nama_dashboard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moch.farhan Ahadi"
+                            android:textColor="@color/putih"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bulat_putih">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:src="@drawable/person"/>
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@+id/collapsing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+                    <ImageView
+                        android:id="@+id/imageview_placeholder"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_190sdp"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="centerCrop"
+                        android:tint="#11000000"
+                        android:background="@color/biru"
+                        app:layout_collapseMode="parallax"
+                        app:layout_collapseParallaxMultiplier="0.9" />
+
+                    <FrameLayout
+                        android:id="@+id/framelayout_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:background="@drawable/background"
+                        app:layout_collapseMode="parallax"
+                        app:layout_collapseParallaxMultiplier="0.3" />
+
+                        <RelativeLayout
+                            android:id="@+id/linearlayout_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_30sdp"
+                            android:orientation="vertical" >
+
+                            <ViewFlipper
+                                android:id="@+id/v_flliper"
+                                android:layout_width="@dimen/_260sdp"
+                                android:layout_height="@dimen/_150sdp"
+                                android:layout_centerInParent="true"/>
+                        </RelativeLayout>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <include layout="@layout/content_dashboard" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+</LinearLayout>

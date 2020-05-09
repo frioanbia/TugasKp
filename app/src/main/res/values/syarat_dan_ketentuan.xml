@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="kebijakan_privasi" translatable="false">
+        Kebijakan Private ini mengatur dan atau menjelaskan seluruh layanan yang sudah kami sediakan untuk anda gunakan,
+        baik layanan yang kami operasikan sendiri maupun oleh rekanan kami.
+        untuk menjaga kepercayaan anda kepada kami,
+        maka kami senantiasa akan menjaga segala
+        kerahasiaan yang terkandung dalam data pribadi anda,
+        karena kami menganggap privasi anda sangat penting
+        bagi Kami. Dalam aturan privasi ini Kami sertakan penjelasan mengenai tata cara Kami mengumpulkan, menggunakan,
+        mengungkapkan, memproses dan melindungi informasi dan data pribadi Anda yang Kami identifikasi ("Data Pribadi").
+        Pada saat Anda membuat pemesanan dan atau akun pribadi pada aplikasi ini, maka Kami akan mencatat dan menyimpan
+        informasi dan data pribadi Anda. Dimana pada prinsipnya, setiap data yang Anda berikan dari waktu ke waktu akan
+        Kami simpan dan Kami gunakan untuk kepentingan penyediaan produk dan layanan Kami kepada Anda, yaitu antara lain
+        untuk keperluan tokenisasi, akuntansi, tagihan, audit, pembayaran, newsletter, serta keperluan keamanan, administrasi
+        dan hukum, bonus poin atau bentuk sejenisnya, pengujian, pemeliharaan dan pengembangan sistem, hubungan pelanggan,
+        promosi dan membantu Kami di kemudian hari dalam memberikan pelayanan kepada Anda. Sehubungan dengan itu, Kami dapat
+        mengungkapkan data Anda kepada perusahaan ini dimana Futsal Farhan bergabung didalamnya, perusahaan yang ditunjuk untuk
+        melakukan proses data yang terikat kontrak dengan Kami, agen perjalanan, badan pemerintah dan badan peradilan yang
+        berwenang di jurisdiksi manapun. Oleh karena pentingnya aturan privasi ini dan ketentuan lainnya dalam penggunaan
+        aplikasi Kami, maka untuk menjaga keamanan data pribadi Anda, maka mohon untuk dibaca secara seksama seluruh ketentuan
+        dalam aturan privasi ini dan ketentuan lainnya aplikasi Kami. Apabila Anda mengakses aplikasi ini di luar Indonesia,
+        maka atas penggunaan aplikasi dan layanan yang Kami berikan akan tunduk dan diatur oleh dan atau ditafsirkan sesuai
+        dengan hukum yang berlaku di Indonesia, tanpa mempengaruhi adanya prinsip-prinsip konflik hukum yang berlaku.
+    </string>
+
+    <string name="syarat1" translatable="false">
+        Dengan mengakses dan menggunakan Layanan Kami, Anda menyatakan telah membaca, memahami, menyetujui dan menyatakan tunduk pada Syarat dan Ketentuan Penggunaan Farhan Futsal ini. Jika Anda tidak dapat menyetujui Syarat dan Ketentuan Penggunaan Farhan Futsal ini, baik secara keseluruhan ataupun sebagian, maka Anda tidak diperbolehkan untuk mengakses aplikasi ini ataupun menggunakan Layanan yang Kami sediakan.
+    </string>
+
+    <string name="syarat2" translatable="false">
+        Syarat dan Ketentuan Penggunaan Farhan Futsal ini terdiri atas :
+    </string>
+
+    <string name="syarat2i" translatable="false">
+        syarat dan ketentuan umum yang berlaku untuk setiap akses dan Layanan yang tersedia pada aplikasi ini
+    </string>
+
+    <string name="syarat2ii" translatable="false">
+        syarat dan ketententuan khusus yang mengatur lebih lanjut ketentuan penggunaan produk atau Layanan tertentu. Dalam hal ditemukan adanya perbedaan atau pertentangan antara syarat dan ketentuan umum dan syarat dan ketentuan khusus, maka yang berlaku adalah syarat dan ketentuan khusus.
+    </string>
+
+    <string name="syarat3" translatable="false">
+        Syarat dan Ketentuan Penggunaan Farhan Futsal dapat Kami ubah, modifikasi, tambah, hapus atau koreksi (perubahan) setiap saat dan setiap perubahan itu berlaku sejak saat Kami nyatakan berlaku atau pada waktu lain yang ditetapkan oleh Kami.
+    </string>
+
+    <string name="syarat4" translatable="false">
+        Dalam hal terdapat kesalahan informasi yang tercantum dalam Aplikasi, maka Anda menyetujui bahwa Kami dengan kebijaksanaan tunggal dan penuh dapat melakukan hal-hal tertentu, dengan atau tanpa alasan dan tanpa pemberitahuan sebelumnya kepada Anda, yaitu sebagai berikut:
+    </string>
+
+    <string name="syarat4i" translatable="false">
+        Menyesuaikan/mengoreksi kesalahan informasi sebagaimana dimaksud
+    </string>
+
+    <string name="syarat4ii" translatable="false">
+        Mengubah, menunda atau membatalkan sebagian atau seluruh transaksi yang telah Anda lakukan sehubungan dengan informasi yang ditampilkan dalam Aplikasi
+    </string>
+
+    <string name="syarat4iii" translatable="false">
+        Melakukan hal-hal lain yang dianggap perlu oleh Kami
+    </string>
+
+    <string name="syarat4iiii" translatable="false">
+        Syarat dan Ketentuan ini berlaku menggantikan semua versi sebelumnya, terhitung sejak versi sebelumnya ditampilkan dalam Aplikasi.
+    </string>
+
+</resources>

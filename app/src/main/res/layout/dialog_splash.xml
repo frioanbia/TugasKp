@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_dialog_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:fontFamily="@font/unlock"
+                android:text="Welcome"
+                android:textColor="@color/hitam"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_dialog_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/unlock"
+                android:text="To"
+                android:textColor="@color/hitam"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_dialog_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/unlock"
+                android:text="User"
+                android:textColor="@color/hitam"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/txt_dialog_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="Aplikasi ini diciptakan untuk mempermudah user"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_dialog_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="untuk booking lapangan pada farhan futsal"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_dialog_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="di daerah Gunung Sindur"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_dialog_sign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:background="@drawable/button_dialog"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="Get Started"
+                android:textColor="@color/hitam"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

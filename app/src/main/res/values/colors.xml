@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#959494</color>
+    <color name="colorPrimaryDark">#00a0c2</color>
+    <color name="colorAccent">#74ffff</color>
+    <color name="biru">#26D2F5</color>
+    <color name="putih">#ffffff</color>
+    <color name="hitam">#000000</color>
+    <color name="miniTitle">#2A2E43</color>
+    <color name="mini_title_profile">#5D5C5C</color>
+    <color name="lightgray">#ededed</color>
+
+</resources>

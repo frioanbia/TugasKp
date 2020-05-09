@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sewa_lapangan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoAppTheme">
+        <activity android:name=".GantiPassword.GantiPasswordActivity"></activity>
+        <activity android:name=".SyaratDanKetentuan.SyaratDanKetentuanActivity" />
+        <activity android:name=".Booking.DetailBooking.DetailBookingActivity" />
+        <activity android:name=".HistoryBooking.HistoryBookingActivity" />
+        <activity
+            android:name=".Profile.EditProfile.EditProfileActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Tiket.TiketActivity" />
+        <activity android:name=".Booking.BookingActivity" />
+        <activity android:name=".Profile.ProfileActivity" />
+        <activity android:name=".Register.RegisterActivity" />
+        <activity
+            android:name=".Dashboard.DashboardActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SplashScreen.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.SignInActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LupaKataSandi.LupaKataSandiActivity"
+            android:theme="@style/AppThemeLupaKataSandi" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
